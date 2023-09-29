@@ -6,11 +6,20 @@
     "configurations": [
         
         {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        
+        {
             "type": "msedge",
             "request": "launch",
             "name": "Launch Edge against localhost",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:5173",
             "webRoot": "${workspaceFolder}"
         }
+
+        
     ]
 }
